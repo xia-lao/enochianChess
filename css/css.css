@@ -1,0 +1,227 @@
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.tabula {
+    display: table;
+    margin: 0 auto;
+    border: 2px;
+}
+
+.half {
+    display: table-row;
+}
+
+.element_table {
+    display: table-cell;
+}
+
+.et_container {
+    display: table;
+}
+
+.sq_half {
+    display: table-row;
+}
+
+.sq_container {
+    display: table-cell;
+}
+
+.subquad {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+/*    width: 31px;
+    height: 31px;*/
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.cell_F {
+border: 3px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: red;
+background-image: -webkit-gradient(linear, center bottom, center top, from(#ff0000), to(#8b0000));
+background-image: -webkit-linear-gradient(bottom, #ff0000, #8b0000);
+background-image: -moz-linear-gradient(bottom, #ff0000, #8b0000);
+background-image: -o-linear-gradient(bottom, #ff0000, #8b0000);
+background-image: -ms-linear-gradient(bottom, #ff0000, #8b0000);
+background-image: linear-gradient(to top, #ff0000, #8b0000);
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+}
+.cell_W {
+border: 3px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: blue;
+background-image: -webkit-gradient(linear, center bottom, center top, from(#003c7b), to(#167fe8));
+background-image: -webkit-linear-gradient(bottom, #003c7b, #167fe8);
+background-image: -moz-linear-gradient(bottom, #003c7b, #167fe8);
+background-image: -o-linear-gradient(bottom, #003c7b, #167fe8);
+background-image: -ms-linear-gradient(bottom, #003c7b, #167fe8);
+background-image: linear-gradient(to top, #003c7b, #167fe8);
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+}
+.cell_A {
+border: 3px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: yellow;
+background-image: -webkit-gradient(linear, center bottom, center top, from(#ffff00), to(#fff68f));
+background-image: -webkit-linear-gradient(bottom, #ffff00, #fff68f);
+background-image: -moz-linear-gradient(bottom, #ffff00, #fff68f);
+background-image: -o-linear-gradient(bottom, #ffff00, #fff68f);
+background-image: -ms-linear-gradient(bottom, #ffff00, #fff68f);
+background-image: linear-gradient(to top, #ffff00, #fff68f);
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+}
+.cell_E {
+border: 3px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: greenyellow;
+background-image: -webkit-gradient(linear, center bottom, center top, from(#ffff00), to(#008b45));
+background-image: -webkit-linear-gradient(bottom, #00ff7f, #008b45);
+background-image: -moz-linear-gradient(bottom, #00ff7f, #008b45);
+background-image: -o-linear-gradient(bottom, #00ff7f, #008b45);
+background-image: -ms-linear-gradient(bottom, #00ff7f, #008b45);
+background-image: linear-gradient(to top, #00ff7f, #008b45);
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+}
+
+.cell_Golgofa {
+border: 10px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: #e5e5e5;
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgba(252,252,252,0.36)), to(rgba(252,252,252,0.36)), color-stop(1%, rgba(247,247,247,0.36)), color-stop(6%, rgba(242,242,242,0.36)), color-stop(26%, rgba(217,217,217,0.36)), color-stop(50%, rgba(191,191,191,0.36)), color-stop(74%, rgba(217,217,217,0.36)), color-stop(94%, rgba(242,242,242,0.36)), color-stop(99%, rgba(247,247,247,0.36)));
+background-image: -webkit-linear-gradient(top, rgba(252,252,252,0.36), rgba(247,247,247,0.36) 1%, rgba(242,242,242,0.36) 6%, rgba(217,217,217,0.36) 26%, rgba(191,191,191,0.36) 50%, rgba(217,217,217,0.36) 74%, rgba(242,242,242,0.36) 94%, rgba(247,247,247,0.36) 99%, rgba(252,252,252,0.36));
+background-image: -moz-linear-gradient(top, rgba(252,252,252,0.36), rgba(247,247,247,0.36) 1%, rgba(242,242,242,0.36) 6%, rgba(217,217,217,0.36) 26%, rgba(191,191,191,0.36) 50%, rgba(217,217,217,0.36) 74%, rgba(242,242,242,0.36) 94%, rgba(247,247,247,0.36) 99%, rgba(252,252,252,0.36));
+background-image: -o-linear-gradient(top, rgba(252,252,252,0.36), rgba(247,247,247,0.36) 1%, rgba(242,242,242,0.36) 6%, rgba(217,217,217,0.36) 26%, rgba(191,191,191,0.36) 50%, rgba(217,217,217,0.36) 74%, rgba(242,242,242,0.36) 94%, rgba(247,247,247,0.36) 99%, rgba(252,252,252,0.36));
+background-image: -ms-linear-gradient(top, rgba(252,252,252,0.36), rgba(247,247,247,0.36) 1%, rgba(242,242,242,0.36) 6%, rgba(217,217,217,0.36) 26%, rgba(191,191,191,0.36) 50%, rgba(217,217,217,0.36) 74%, rgba(242,242,242,0.36) 94%, rgba(247,247,247,0.36) 99%, rgba(252,252,252,0.36));
+/*background-image: linear-gradient(to bottom, rgba(252,252,252,0.36), rgba(247,247,247,0.36) 1%, rgba(242,242,242,0.36) 6%, rgba(217,217,217,0.36) 26%, rgba(191,191,191,0.36) 50%, rgba(217,217,217,0.36) 74%, rgba(242,242,242,0.36) 94%, rgba(247,247,247,0.36) 99%, rgba(252,252,252,0.36));*/
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 14px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 14px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 14px white;
+}
+.cell_Trinity{
+border: 10px solid rgba(0,0,0,0.22);
+border-radius: 9%;
+background: #e5e5e5;
+background-image: -webkit-gradient(linear, center bottom, center top, from(#bfbfbf), to(#fcfcfc), color-stop(10%, #d9d9d9), color-stop(88%, #f2f2f2), color-stop(97%, #f7f7f7));
+background-image: -webkit-linear-gradient(bottom, #bfbfbf, #d9d9d9 10%, #f2f2f2 88%, #f7f7f7 97%, #fcfcfc);
+background-image: -moz-linear-gradient(bottom, #bfbfbf, #d9d9d9 10%, #f2f2f2 88%, #f7f7f7 97%, #fcfcfc);
+background-image: -o-linear-gradient(bottom, #bfbfbf, #d9d9d9 10%, #f2f2f2 88%, #f7f7f7 97%, #fcfcfc);
+background-image: -ms-linear-gradient(bottom, #bfbfbf, #d9d9d9 10%, #f2f2f2 88%, #f7f7f7 97%, #fcfcfc);
+background-image: linear-gradient(to top, #bfbfbf, #d9d9d9 10%, #f2f2f2 88%, #f7f7f7 97%, #fcfcfc);
+-webkit-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+-moz-box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+box-shadow: 11px 12px 10px rgba(0,0,0,0.75), inset 0 0 72px 58px white;
+
+}
+
+.fig {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.chess_img {
+}
+
+/*************************************************************************************************/
+.occupied {
+-webkit-box-shadow: inset -1px 1px 3px 2px rgb(255,0,0);
+-moz-box-shadow:    inset -1px 1px 3px 2px rgb(255,0,0);
+box-shadow:         inset -1px 1px 3px 2px rgb(255,0,0);
+}
+
+.selected {
+-webkit-box-shadow: inset -1px 1px 3px 2px rgb(0,255,0);
+-moz-box-shadow:    inset -1px 1px 3px 2px rgb(0,255,0);
+box-shadow:         inset -1px 1px 3px 2px rgb(0,255,0);
+}
+
+.textcss{
+    /*border-radius: 13px;*/
+    font-size: 9px;
+}
+
+.info {
+    border: 4px double rgba(0,0,0,0.29);
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 17px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 17px 2px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 17px 2px rgba(0,0,0,0.75);
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+/***************************************************************/
+@font-face {
+    font-family: WaerCursive;
+    src: url('css/WaerCursive.ttf');
+}
+
+@font-face {
+    font-family: code2000;
+    src: url('css/CODE2000.TTF');
+}
+
+@font-face {
+    font-family: WaerIasen;
+    src: url('WaerIasen.ttf');
+}
+
+@font-face {
+    font-family: Enochian;
+    src: url('Enochian.ttf');
+}
+
+.Enochian {
+    font: bold 14pt Enochian;
+}
+
+.code2000 {
+    font: bold 14pt code2000;
+}
+
+.waer_old {
+    font-family: WaerCursive;
+}
+
+.Waer {
+    font: bold 11pt WaerIasen;
+}
+
+
+/*******************************************************************************
+ *
+ ******************************************************************************/
+#bg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: fixed;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center center;
+    background-image: url("img/SDA_tr31,0.png");
+
+}

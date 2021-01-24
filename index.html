@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>-=</(:)\>=-</title>
+    <link href="css/jquery-ui.structure.css" type="text/css" rel="stylesheet" />
+    <link href="css/themes/dark-hive/theme.css" type="text/css" rel="stylesheet" />
+    <link href="css/themes/blitzer/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <link href="css/qtip.css" type="text/css" rel="stylesheet" />
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="lib/fabric.js"></script>
+    <script type="text/javascript" src="lib/json2.js"></script>
+    <script type="text/javascript" src="lib/qtip.js"></script>
+    <script type="text/javascript" src="lib/astro/moment.js"></script>
+    <script type="text/javascript" src="lib/jquery.cookie.js"></script>
+    <script type="text/javascript" src="lib/enche.js"></script>
+  </head>
+<body>
+    <div id='mainWindow'>
+        <ul>
+            <li><a href="#tabField">Поле <span class="Waer">Ифи</span></a></li>
+            <!--<li><a href="#tabProtocol">Протокол <span class="Waer">ьэрп</span></a></li>-->
+            <li><a href="#tabOracle">Оракул <span class="Waer">э грэл</span></a></li>
+            <!--<li><a href="#tabCemetary">Кости <span class="Waer">кьъжы</span></a></li>-->
+            <li><a href="#tabSetup">Настройки <span class="Waer">меэд</span></a></li>
+        </ul>
+        <div id="tabField" align="center">
+            <span><h6 style="color: red;" id="sudden_inform"></h6></span>
+            <div id='cfield' class='tabula' ></div><br />
+        </div>
+        <div id="tabSetup">
+            <div class="acc" id="accNewOrLoad">
+                <h3>Новая игра</h3>
+                <div id="dNewGame" align="justify">
+                    <span class='info'>Выберите стихию доски: 
+                        <select id="sfield_element" style="width: 200px; opacity: .6;">
+                            <option value="No">Выберите стихию...</option>
+                            <option value="A">Воздух (EXARP)</option>
+                            <option value="W">Вода (HCOMA)</option>
+                            <option value="E">Земля (NANTA)</option>
+                            <option value="F">Огонь (BITOM)</option>
+                        </select>
+                    </span>
+                    <br /><br />
+                    <span class="info">ID игры: <input type='text' id='gameID' disabled="true">.
+                        <button id='bStartGame'
+                                <span style="color: red;"><b>Начать игру?</b></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div id='tabProtocol' >
+            <textarea id='fpos' wrap="hard" placeholder="Protocol area"></textarea>
+            <span id="spMsg">
+                <input type="text" id="itMoveComment" placeholder="Ваше сообщение (1 sms)">
+                <button id="btnSendProtocolMessage">Отправить</button>
+            </span>
+        </div>
+        <div id='tabOracle' align="center">
+            <h2 id="h1Oracle" class="info">Оракул</h2>
+            <canvas id='rand' class='info' style='margin-top: 10px;margin-bottom: 40px;'></canvas><br />
+            <button id='bthrow' class='info' style="width: 200px;">Бросить кубик</button><br />
+            <button id='bsave' class='info'  style="width: 200px;">Рисунок в протокол</button><br />
+            <button id='bclear' class='info' style="width: 200px;">Очистить поле</button><br />
+        </div>
+    </div>
+</body>
+</html>
